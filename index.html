@@ -1,19 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./styles.css">
+	<link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+	<title>Holy Trinity</title>
 </head>
+
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="./recipes/adobo.html">Adobo</a></li>
-        <li><a href="./recipes/caldereta.html">Caldereta</a></li>
-        <li><a href="./recipes/sinigang.html">Sinigang</a></li>
-    </ul>
-    
-    
+	<div class="header">
+		<p class="headerImg">🍴</p>
+		<h1>HOLY TRINITY</h1>
+		<p class="headerDesc">My Big 3 Filipino Dishes</p>
+	</div>
+	<div class="food">
+		<div class="container" onclick="window.location.href = './recipes/caldereta.html';">
+			<img class="dishImg" src="./img/caldereta.jpg" alt="Caldereta">
+			<h2 class="dishName">CALDERETA</h2>
+			<p class="dishDesc">
+				Caldereta is a comforting beef stew popular in
+				the Philippines. Every family has its own version.
+				Experiment with the ingredients and try different
+				vegetables. Best served with white rice!
+			</p>
+		</div>
+		<div class="container" onclick="window.location.href = './recipes/sinigang.html';">
+			<img class="dishImg" src="./img/sinigang.jpg" alt="Caldereta">
+			<h2 class="dishName">SINIGANG</h2>
+			<p class="dishDesc">
+				Sinigang is one of my favorite Filipino dishes.
+				It's an absolute comfort food with a sour taste
+				from lemon. Serve with rice.
+			</p>
+		</div>
+		<div class="container" onclick="window.location.href = './recipes/adobo.html';">
+			<img class="dishImg" src="./img/adobo.jpg" alt="Caldereta">
+			<h2 class="dishName">ADOBO</h2>
+			<p class="dishDesc">
+				This classic adobo recipe is simple to make and
+				famous with all who have tasted it. It has been
+				modified to be a bit more saucy than traditional
+				adobo, it is delicious served over rice.
+			</p>
+		</div>
+	</div>
+
+
 </body>
+
 </html>
